@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff3e3e;
+  --background: #030303;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Hide Spline watermark */
+canvas + div {
+  display: none !important;
+}
